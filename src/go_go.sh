@@ -15,6 +15,7 @@ chmod +x *
 pwd
 while true
 do
+	dbus-uuidgen > /var/lib/dbus/machine-id
 	echo "NEW ..............."
 	cd /root/SDA_ALL/MOP/
 	# timeout 5m python3 48_ads.py

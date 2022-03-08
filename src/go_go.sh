@@ -10,13 +10,13 @@ cd /root/SDA_ALL/
 rm -rf site_5
 git reset --hard
 git pull
-cd /root/SDA_ALL/arm/
+cd /root/SDA_ALL/MOP/
 chmod +x *
 pwd
 while true
 do
 	echo "NEW ..............."
-	cd /root/SDA_ALL/arm/
+	cd /root/SDA_ALL/MOP/
 	# timeout 5m python3 48_ads.py
-	python3 google_let.py
+	python3 chom.py
 done
